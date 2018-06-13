@@ -1,0 +1,36 @@
+* Description
+Quantum systems are described by a Hilbert space $\mathbb{H}$. Hilbert spaces are vector 
+spaces over the complex numbers $\mathbb{C}$ possessing an inner product that
+assigns to every pair of vectors $\varphi_1,\varphi_2\in\mathbb{H}$ a complex
+number $\langle \varphi_1,\varphi_2\rangle$.
+
+The vectors $\varphi\in\mathbb{H}$ describe the states a quantum system can
+assume. Philosophers adhering to the creed of realism might call this the
+/noumenon/ of the quantum system. Speaking more coloquially, it is the 
+/underlying reality/ of the quantum system irrespective of whether it qualifies
+as a fully fledged noumenon or merely as some sort of phenomenon subject to
+the agreement of certain, perhaps most, observers.
+* Experiment and Measurement
+The state vector description was introduced by physicists to describe the
+outcome of experiments on quantum systems in a spirit of empiricism. As a 
+consequence, the question of the nature of what the state vector describes
+was considered irrelevant. The only thing that matters in this view is its
+ability to predict measurements. 
+
+To be more precise, quantum systems can be manipulated to assume a certain 
+initial state $\varphi_i$, called the preparation, and after a measurement 
+the system will be in a certain final state $\varphi_f$. This sequence of
+preparation and measurement is called an experiment. Perhaps it should be
+called an elementary experiment because every measurement results in a state
+and could be interpreted as a preparation to be followed by another measurement.
+For all practical purposes preparations can also be considered measurements
+if measurements are defined as an activity causing the quantum system to be in
+a definite known state. An experiment would then be a sequence of elementary
+experiments or simply a sequence of pairs of measurements.
+# A monadic computation
+
+The predictive power of the description lies in the interpretation of the 
+squared modulus $\left|\langle\varphi_f,\varphi_i\rangle\right|^2$ of the inner
+product of the initial and final vectors as the probability of obtaining 
+state $\varphi_f$ by measuring the quantum system after preparing it in state
+$\varphi_i$.
