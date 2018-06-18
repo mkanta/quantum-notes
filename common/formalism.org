@@ -1,7 +1,7 @@
-* Description
+* The Description of a Quantum System
 Quantum systems are described by a Hilbert space $\mathbb{H}$. Hilbert spaces are vector 
 spaces over the complex numbers $\mathbb{C}$ possessing an inner product that
-assigns to every pair of vectors $\varphi_1,\varphi_2\in\mathbb{H}$ a complex
+assigns to every pair of vectors $\varphi_1|\varphi_2\in\mathbb{H}$ a complex
 number $\langle \varphi_1,\varphi_2\rangle$.
 
 The vectors $\varphi\in\mathbb{H}$ describe the states a quantum system can
@@ -30,7 +30,7 @@ experiments or simply a sequence of pairs of measurements.
 # A monadic computation
 
 The predictive power of the description lies in the interpretation of the 
-squared modulus $\left|\langle\varphi_f,\varphi_i\rangle\right|^2$ of the inner
+squared modulus $\left|\langle\varphi_f|\varphi_i\rangle\right|^2$ of the inner
 product of the initial and final vectors as the probability of obtaining 
 state $\varphi_f$ by measuring the quantum system after preparing it in state
 $\varphi_i$.
