@@ -9,7 +9,7 @@ assume. Philosophers adhering to the creed of realism might call this the
 /noumenon/ of the quantum system. Speaking more coloquially, it is the 
 /underlying reality/ of the quantum system irrespective of whether it qualifies
 as a fully fledged noumenon or merely as some sort of phenomenon subject to
-the agreement of certain, perhaps most, observers.
+sufficient agreement between observers.
 * Experiment and Measurement
 The state vector description was introduced by physicists to describe the
 outcome of experiments on quantum systems in a spirit of empiricism. As a 
@@ -34,3 +34,35 @@ squared modulus $\left|\langle\varphi_f|\varphi_i\rangle\right|^2$ of the inner
 product of the initial and final vectors as the probability of obtaining 
 state $\varphi_f$ by measuring the quantum system after preparing it in state
 $\varphi_i$.
+* Outcomes and Observables
+In an experiment to determine the value of a certain observable quantity of the
+quantum system, the vectors $\varphi_f$, $\varphi_i$ are decomposed into a linear
+composition of an orthonormal basis $\omega_i$ of the Hilbert space 
+$\mathbb{H}$. 
+
+This basis depends on the experiment and constitutes the eigenbasis of a 
+hermitian operator $O$ on $\mathbb{H}$ representing the possible measurement
+results that the experiment may yield. More precisely, if the system is in
+state $\varphi_f$ at the time of measurement and 
+$\varphi_f=\sum \langle\varphi_f,\omega_i\rangle\omega_i$ then, after the
+measurement, it will be in state $\omega_{i_f}$ with probability 
+$\left|\langle\varphi_f,\omega_{i_f}\rangle\right|^2$ and the result of the
+measurement is the eigenvalue $\lambda_{i_f}$ to eigenstate $\omega_{i_f}$
+of $O$. 
+
+This assumes nondegeneracy of the operator $O$, which means that the 
+eigenspaces of $O$ are one-dimensional. Otherwise, the probabilities
+change. In case of nondegeneracy, the eigenstates of $O$ are written as
+so called ket vectors $|\lambda_i\rangle$ to denote the eigenstate $\omega_i$
+with eigenvalue $\lambda_i$.
+
+Thus, in order to ask the universe a question, all that is necessary is to 
+decompose its state into an eigenbasis of a Hermitian operator and pick one
+of them according to the probabilities involved. The universe will give an
+answer no matter how non-sensical the question may seem. Getting 42 as the 
+meaning of life is perhaps not as far-fetched as it sounds, unless it is a 
+tensorial quantity rather than a scalar.
+
+
+* Evolution in Time
+* Interactions
